@@ -1,0 +1,45 @@
+/*font*/
+h1{
+    font-size: 150px;
+    font-variant: small-caps;
+    font-style: normal;
+    text-decoration: overline;
+}
+
+/* font */
+p{
+    font-family: sans-serif;
+    line-height: normal;
+    text-align: left;
+    text-indent: 50px;
+    text-decoration: double;
+    line-height: 1.05cm;
+    font-style: inherit;
+}
+
+/* background */
+.bg{
+    background-color: royalblue;
+}
+
+/* bgimage */
+.bgimg{
+    background-image: url("../img/Photo.jpg");
+}
+
+/* navigation */
+nav ul{
+    list-style: inside;
+    background-color: aquamarine;
+}
+
+/* box model */
+#par {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    text-align: justify;
+    text-indent: 50px;
+}
