@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>kurs</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <fieldset>
+            <legend>KursRupiah</legend>
+            <table>
+                <tr>
+                    <td>nominal</td>
+                    <td>mata uang</td>
+                    <td>rupiah</td>
+                </tr>
+                <tr>
+                    <td><input type="number" name="nilaiAwal" id="nilaiAwal"></td>
+                    <td>
+                        <select name="kurs" id="kurs">
+                            <option value="USD">$</option>
+                            <option value="DollarSingapore">Dollar singapore</option>
+                            <option value="yen">円</option>
+                            <option value="Euro">Euro</option>
+                            <option value="Riyal">Riyal</option>
+                            <option value="Ringgit">Ringgit Malaysia</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="nilaiAkhir" id="nilaiAkhir">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <script src="js/kurs.js"></script>
+    </body>
+</html>
