@@ -14,20 +14,23 @@
                     <td>rupiah</td>
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder="nomilal"></td>
+                    <td><input type="number" name="nilaiAwal" id="nilaiAwal"></td>
                     <td>
-                        <select name="kurs" id="kurs"></label>
+                        <select name="kurs" id="kurs">
                             <option value="USD">$</option>
-                            <option value="singapore">singapore Dollar</option>
+                            <option value="DollarSingapore">Dollar singapore</option>
                             <option value="yen">円</option>
                             <option value="Euro">Euro</option>
                             <option value="Riyal">Riyal</option>
+                            <option value="Ringgit">Ringgit Malaysia</option>
+                        </select>
                     </td>
                     <td>
-                        <input type="text" id="rupiah">
+                        <input type="text" name="nilaiAkhir" id="nilaiAkhir">
                     </td>
                 </tr>
             </table>
         </fieldset>
+        <script src="js/kurs.js"></script>
     </body>
 </html>
