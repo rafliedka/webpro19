@@ -2,18 +2,22 @@
 <html>
 <head>
   <title>Login</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <form action="profile.html" method="get" id="myForm" onsubmit=" return validasi()">
-    <p>Welcome</p>
-    Username  <input type="text" name="username" placeholder="username">
-    <br>
-    Password  <input type="password" name="password" placeholder="password">
-    <br>
-    <a href="berhasil.html" id="berhasil">
-      <input class="login" type="submit" name="submit" value="login">
-    </a>
-  </form>
+  <fieldset>
+    <legend>Welcome</legend>
+    <form action="profile.html" method="get" id="myForm" onsubmit=" return validasi()">
+      Username  <input type="text" name="username" placeholder="username">
+      <br>
+      Password  <input type="password" name="password" placeholder="password">
+      <br>
+      <a href="berhasil.html" id="berhasil">
+        <input class="login" type="submit" name="submit" value="login">
+      </a>
+    </form>
+  </fieldset>
 </body>
 <script type="text/javascript" src="js/login.js"></script>
 </html>
