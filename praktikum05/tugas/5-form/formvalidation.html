@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Form Validation</title>
+    </head>
+    <body>
+        <h1>VALIDATION FORM</h1><br>
+        <hr>
+        <form action="post" name="form" id="form">
+            <fieldset>
+                <legend>PERSONAL DATA</legend>
+                <table>
+                    <!-- NAME -->
+                    <tr>
+                        <td><label for="nama">Nama Pelanggan</label></td>
+                        <td><input type="text" name="nama" id="nama" autocomplete="off"
+                            title="30 Character Maximal" required>
+                        <span></span></td>
+                    </tr>
+                    <!-- EMAIL -->
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                            placeholder="chrisredfield@gmail.com"
+                            title="(Aa-Zz, 0-9)"
+                            autocomplete="off" required></td>
+                    </tr>
+                    <!-- TIME -->
+                    <tr>
+                        <td><label for="time">Jam Keberangkatan</label></td>
+                        <td><input type="time" name="time" id="time" autocomplete="off" required></td>
+                    </tr>
+                    <!-- DESTINATION -->
+                    <tr>
+                        <td><label for="destination">Destinasi Tujuan</label></td>
+                        <td><input type="text" name="destination" id="destination" autocomplete="off" required></td>
+                    </tr>
+                    <!-- TICKET -->
+                    <tr>
+                        <td><label for="ticket">Jumalh Tiket</label></td>
+                        <td><input type="number" name="ticket" id="ticket" min="1" max="5" autocomplete="off" required></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <input type="submit" name="submit" id="submit" onclick="" value="Submit">
+            <input type="reset" name="clear" value="Cancel">
+        </form>
+    </body>
+</html>

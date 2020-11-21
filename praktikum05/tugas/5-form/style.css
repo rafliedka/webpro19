@@ -1,0 +1,21 @@
+fieldset{
+    width: fit-content;
+}
+
+.benar{
+    color: green;
+}
+
+.benar:before{
+    position: relative;
+    content: "✔";
+}
+
+.salah{
+    color: red;
+}
+
+.salah:before{
+    position: relative;
+    content: "✖";
+}
